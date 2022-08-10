@@ -263,8 +263,8 @@ if __name__ == "__main__":
         AIFMLusername, AIFMLpassword,
         [
             [ [0 , 35 ], func1], # 輸出介於  0~ 35 執行 func1
-            [ [35, 65 ], func2], # 輸出介於 35~ 65 執行 func1
-            [ [65, 100], func3], # 輸出介於 65~100 執行 func1
+            [ [35, 65 ], func2], # 輸出介於 35~ 65 執行 func2
+            [ [65, 100], func3], # 輸出介於 65~100 執行 func3
         ]
     )
     if(fml.connected and fml.accessToken):
